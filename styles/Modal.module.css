@@ -1,0 +1,56 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  min-height: 50%;
+  background-color: white;
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form{
+    width: 90%;
+}
+/* .label{
+} */
+.input{
+    margin-top: 0.3rem;
+    display: block;
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 1vh;
+}
+.message{
+    display: block;
+    width: 100%;
+    padding: 4px;
+    resize: vertical;
+    min-height: 6rem;
+    margin-top: 0.3rem;
+}
+
+.errorBorder {
+    border: 1px solid red;
+  }
+
+.error{
+    color:red;
+    font-size: 0.75rem;
+    display: block;
+    margin-top: 0.3rem;
+}
+
+.noerror{
+    display: none;
+}
+
+.creditCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

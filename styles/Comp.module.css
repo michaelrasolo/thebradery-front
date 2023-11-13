@@ -1,0 +1,88 @@
+.catButtons {
+  background-color: #335c67;
+  padding: 8px 12px;
+  border: solid 0px #fef8f0;
+  border-radius: 20px;
+  color: #fef8f0;
+  margin: 5px;
+  height: 33px;
+  text-align: center;
+  white-space: nowrap;
+margin-top: 5vh;
+}
+
+.catButtons:focus,
+.catButtons:hover {
+  box-shadow: 1px 1px 2px black;
+}
+.selected {
+  background-color: transparent;
+  color: #335c67;
+  border: solid 1px #335c67;
+}
+
+.catBtnContainer {
+  padding-left: 3vw;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  overflow-x: scroll; /* Enable horizontal scroll */
+  overflow-y: hidden; /* Disable vertical scroll */
+}
+
+.catBtnContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.footerContainer {
+  background-color: #335c67;
+  margin-top: 5vh;
+  width: 100%;
+  padding: 70px 0;
+  text-align: center;
+  color: #fef8f0;
+  height: 200px;
+  
+}
+
+.copyright {
+  color: #fef8f0;
+  line-height: 2rem;
+}
+
+.menuConatiner {
+  background-color: #fef8f0;
+}
+
+.mainBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: solid 1px #335c67;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  max-width: 384px;
+}
+
+.mainBtn:focus,
+.mainBtn:hover {
+  outline: none;
+  box-shadow: 1px 1px 2px black;
+}
+
+
+
+
+  @media screen and  (min-width: 481px){
+    .catBtnContainer {
+      justify-content: center;
+width:90%;
+height: auto;
+flex-wrap: wrap;
+    }
+  }

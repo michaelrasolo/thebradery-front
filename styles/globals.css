@@ -1,0 +1,31 @@
+/* Import the Parisienne font from @fontsource/parisienne */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+/* Import the Poppins font from @fontsource/poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+  color: #335C67;
+  overflow: visible;
+  background-image: url("../public/Background.jpg");
+background-size: contain;
+  background-attachment: fixed;
+font-size: 16px;
+
+}
+
+* {
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 360px) {
+body{
+  font-size: 14px;
+}
+}

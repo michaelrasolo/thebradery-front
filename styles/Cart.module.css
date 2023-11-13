@@ -1,0 +1,25 @@
+.cartBox{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+  min-height: calc(100vh - 371px);
+  }
+
+  .deleteBtn{
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    color: #335C67;
+    border-radius: 100%;
+
+  }
+
+  .deleteBtn:hover{
+    cursor: pointer;
+    background-color: #eeedea;
+
+  }
+
+ 
